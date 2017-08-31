@@ -1,0 +1,29 @@
+[
+  {
+    "op": "core/mass-edit",
+    "description": "Edit Cell [Country] (#### Rows)",
+    "engineConfig": null,
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "U.K.",
+          "UK"
+        ],
+        "to": "United Kingdom"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "United States",
+          "United States of America"
+        ],
+        "to": "United States"
+      }
+    ]
+  }
+]
